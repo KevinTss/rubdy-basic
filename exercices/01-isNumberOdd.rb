@@ -1,3 +1,7 @@
 puts "Enter a number"
 nb = gets.chomp.to_i
-puts nb.even?
+if nb.even?
+  puts "Number is odd"
+else 
+  puts "Number isn't odd"
+end
